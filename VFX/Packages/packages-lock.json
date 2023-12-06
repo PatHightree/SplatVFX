@@ -21,7 +21,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
-      "version": "2.0.3",
+      "version": "2.0.5",
       "depth": 3,
       "source": "registry",
       "dependencies": {},
@@ -42,15 +42,16 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "15.0.7",
+      "version": "16.0.4",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.4",
-        "com.unity.ugui": "1.0.0",
+        "com.unity.ugui": "2.0.0",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.terrain": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.rendering.light-transport": "1.0.0"
       }
     },
     "com.unity.render-pipelines.high-definition": {
@@ -65,18 +66,28 @@
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.modules.terrain": "1.0.0",
-        "com.unity.render-pipelines.core": "15.0.7",
-        "com.unity.shadergraph": "15.0.7",
-        "com.unity.visualeffectgraph": "15.0.7",
-        "com.unity.render-pipelines.high-definition-config": "15.0.7"
+        "com.unity.render-pipelines.core": "16.0.4",
+        "com.unity.shadergraph": "16.0.4",
+        "com.unity.visualeffectgraph": "16.0.4",
+        "com.unity.render-pipelines.high-definition-config": "16.0.4"
       }
     },
     "com.unity.render-pipelines.high-definition-config": {
-      "version": "15.0.7",
+      "version": "16.0.4",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "15.0.7"
+        "com.unity.render-pipelines.core": "16.0.4"
+      }
+    },
+    "com.unity.rendering.light-transport": {
+      "version": "1.0.0",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.collections": "1.4.0",
+        "com.unity.mathematics": "1.2.4",
+        "com.unity.render-pipelines.core": "16.0.1"
       }
     },
     "com.unity.searcher": {
@@ -87,11 +98,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "15.0.7",
+      "version": "16.0.4",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "15.0.7",
+        "com.unity.render-pipelines.core": "16.0.4",
         "com.unity.searcher": "4.9.2"
       }
     },
@@ -107,7 +118,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.8.2",
+      "version": "1.8.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -119,7 +130,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "depth": 2,
       "source": "builtin",
       "dependencies": {
@@ -128,12 +139,12 @@
       }
     },
     "com.unity.visualeffectgraph": {
-      "version": "15.0.7",
+      "version": "16.0.4",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.shadergraph": "15.0.7",
-        "com.unity.render-pipelines.core": "15.0.7"
+        "com.unity.shadergraph": "16.0.4",
+        "com.unity.render-pipelines.core": "16.0.4"
       }
     },
     "jp.keijiro.klak.timeline.procedural-motion": {
