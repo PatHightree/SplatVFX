@@ -1,0 +1,19 @@
+{
+    "name": "LookingGlass",
+    "rootNamespace": "",
+    "references": [
+        "Unity.InputSystem",
+        "FFmpegOut",
+        "Hjg.Pngcs",
+        "GraphQLClient"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
